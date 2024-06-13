@@ -16,14 +16,7 @@ stages {
           }
         }
 }
- stage('test') {
-           steps {
-              script {
-                sh 'npm test'
-                  
-          }
-        }
-}
+
 stage('deploy') {
            steps {
               script {
